@@ -22,7 +22,7 @@ def int_compuesto(CB, I,A):
     print ("Usted ha pedido un prestamo de ",CB,"euros aplicando la tasa de interes de ",I*100," %, durante ",A,"Años tiene que devolver",CT,"Euros")
     
     
-print(int_compuesto(50,0.21,5))
+print(int_compuesto(74555,0.21,5))
 
 def int_compuesto_v2(CB,I,A):
     CT = 0
@@ -35,7 +35,7 @@ def int_compuesto_v2(CB,I,A):
     else: 
         CT= CB
     print ("Usted ha pedido un prestamo de ",CB,"euros aplicando la tasa de interes de ",I *100,"%, durante ",A,"Años tiene que devolver",CT,"Euros")
-print(int_compuesto_v2(50,0.21,5))    
+print(int_compuesto_v2(74555,0.21,5))    
     
     
          
