@@ -28,7 +28,7 @@ def int_compuesto_v2(CB,I,A):
     CT = 0
     if I>1:
          I= I /100
-    if CB != 50000:
+    if CB >= 50000:
         CT =CB
         for b in range(0,A):
             CT = CT+ CT*I
